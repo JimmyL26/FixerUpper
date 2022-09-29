@@ -11,19 +11,20 @@
 		<ul class="Menu">
 			<li>Option One</li>
 			<li>Option Two</li>
-			Option Three</li>
+			<li>Option Three</li> <!--Missing opening tag. Fixed by adding "<li>"-->
 			<li>Option Four</li>
 		</ul>
-	</div
+	</div> <!--Incomplete tag. Fixed by adding ">" to the end of "</div"-->
 	<div>
 		<div class="card">
 			<img alt="content one" src="content_image1"></img>
-		<div class="card"
-			<img alt="content one" src="content_image2"></img>
+		</div> <!--Missing opening tag. Fixed by adding "</div>"-->
+		<div class="card"> <!--Incomplete tag. Fixed by adding ">" to the end of "<div class="card""-->
+			<img alt="content one" src="content_image2"></img> 
 		</div>
 		<div class="card">
 			<img alt="content one" src="content_image3"></img>
 		</div>
 	</div>
 </body>
-<html>
+</html>
